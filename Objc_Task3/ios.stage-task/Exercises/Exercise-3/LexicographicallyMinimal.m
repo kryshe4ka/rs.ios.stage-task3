@@ -15,9 +15,7 @@
     NSMutableString *resultStr = [NSMutableString stringWithString:@""];
     NSRange range = NSMakeRange(0, 1);
     
-    
     while (!(str1.length == 0) && !(str2.length == 0)) {
-        
         NSComparisonResult compareResult = [str1 compare:str2];
         NSLog(@"%li", (long)compareResult);
         
@@ -37,5 +35,4 @@
     
     return resultString;
 }
-
 @end
