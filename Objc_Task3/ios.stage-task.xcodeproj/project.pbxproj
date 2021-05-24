@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D48AF16265AF96D00CFFBA3 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D48AF15265AF96D00CFFBA3 /* BinaryTreeNode.m */; };
 		7AF396612656A588003A569D /* LevelOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF396602656A588003A569D /* LevelOrderTests.m */; };
 		820FABB2265679FC008CFD09 /* DateTasks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 820FABB1265679FC008CFD09 /* DateTasks.pdf */; };
 		820FABBD26567D60008CFD09 /* NSDate+CustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 820FABBC26567D60008CFD09 /* NSDate+CustomDate.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D48AF14265AF96200CFFBA3 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		3D48AF15265AF96D00CFFBA3 /* BinaryTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
 		7AF396602656A588003A569D /* LevelOrderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelOrderTests.m; sourceTree = "<group>"; };
 		820FABB1265679FC008CFD09 /* DateTasks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DateTasks.pdf; sourceTree = "<group>"; };
 		820FABBB26567D60008CFD09 /* NSDate+CustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CustomDate.h"; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D48AF13265AF94D00CFFBA3 /* BinaryTreeNode */ = {
+			isa = PBXGroup;
+			children = (
+				3D48AF14265AF96200CFFBA3 /* BinaryTreeNode.h */,
+				3D48AF15265AF96D00CFFBA3 /* BinaryTreeNode.m */,
+			);
+			path = BinaryTreeNode;
+			sourceTree = "<group>";
+		};
 		820FABC026567EFA008CFD09 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		8275DDD2264C16A100838828 /* Exercise-4 */ = {
 			isa = PBXGroup;
 			children = (
+				3D48AF13265AF94D00CFFBA3 /* BinaryTreeNode */,
 				82ADF96426558D6400D81DB7 /* LevelOrderTraversal.md */,
 				82ADF96526558D6400D81DB7 /* LevelOrderTraversal.h */,
 				82ADF95F26558D6400D81DB7 /* LevelOrderTraversal.m */,
@@ -299,6 +312,7 @@
 				82ADF96626558D6400D81DB7 /* LevelOrderTraversal.m in Sources */,
 				82ADF97326558D7000D81DB7 /* PlayersSeparator.m in Sources */,
 				820FABBD26567D60008CFD09 /* NSDate+CustomDate.m in Sources */,
+				3D48AF16265AF96D00CFFBA3 /* BinaryTreeNode.m in Sources */,
 				82ADF97D26566AC400D81DB7 /* DateHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
